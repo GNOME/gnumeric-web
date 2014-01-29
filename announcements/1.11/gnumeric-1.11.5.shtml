@@ -1,0 +1,80 @@
+<!--#set var="title" value="Gnumeric 1.11.5" --><!--#set var="rootdir" value="../.." --><!--#include virtual="../../header-begin.shtml" -->
+<!--#include virtual="../../header-end.shtml" -->
+
+  <h2>Gnumeric 1.11.5 aka &quot;Solved&quot; is now available.</h2>
+  <p>The Gnumeric Team is pleased to announce the availability of
+  Gnumeric version 1.11.5.</p>
+  <p>Noteworthy news in this release:</p>
+  <ul>
+  <li>Python support resurrected.</li>
+  <li>A solver report was added.</li>
+  <li>Non-linear solver respects constraints.</li>
+  <li>Loading of large, dense sheets is faster.</li>
+  </ul>
+  <p>Details:</p>
+  <ul>
+  <li>Jean
+    <ul>
+      <li>
+	Add support for introspection. [<a href="https://bugzilla.gnome.org/show_bug.cgi?id=670271">Bug 670271</a>].
+      </li>
+    </ul>
+  </li>
+  <li>Morten
+    <ul>
+      <li>
+	Solver translation fixes.
+      </li>
+      <li>
+	Teach non-linear solver about constraints.  [Part of <a href="https://bugzilla.gnome.org/show_bug.cgi?id=620368">Bug 620368</a>].
+      </li>
+      <li>
+	Avoid too many hash collissions for dense sheets.
+      </li>
+      <li>
+	Speed up operations that iterate over cells in large areas.
+      </li>
+      <li>
+	Fix problems with linear solvers and cross-sheet target.
+      </li>
+      <li>
+	Fix python-loader vs. goffice interface problem.
+      </li>
+      <li>
+	Add solver report.
+      </li>
+    </ul>
+  </li>
+  </ul>
+  <h2>goffice 0.9.5 aka &quot;TBD&quot; is now available.</h2>
+  <p>The Gnumeric Team is pleased to announce the availability of
+  goffice version 0.9.5.</p>
+
+  <ul>
+  <li>Andreas
+    <ul>
+      <li>
+	Fix spacing in chart properties dialog.
+      </li>
+      <li>
+	Fix style inconsistency in regression trend line dialog. [<a href="https://bugzilla.gnome.org/show_bug.cgi?id=678810">Bug 678810</a>].
+      </li>
+    </ul>
+  </li>
+  <li>Jean
+    <ul>
+      <li>
+	Fix rich text size evaluation. [<a href="https://bugzilla.gnome.org/show_bug.cgi?id=679459">Bug 679459</a>].
+      </li>
+      <li>
+	Moved prototypes from gog-axis-line-impl.h to gog-axis-line.h. [<a href="https://bugzilla.gnome.org/show_bug.cgi?id=679967">Bug 679967</a>].
+      </li>
+    </ul>
+  </li>
+  </ul>
+  <h2>Availability</h2>
+  <blockquote>
+    <p><a href="http://ftp.gnome.org/pub/GNOME/sources/gnumeric/1.11/">http://ftp.gnome.org/pub/GNOME/sources/gnumeric/1.11/</a>></p>
+    <p><a href="http://ftp.gnome.org/pub/GNOME/sources/goffice/0.9/">http://ftp.gnome.org/pub/GNOME/sources/goffice/0.9/</a></p>
+  </blockquote>
+<!--#include virtual="../../footer.shtml" -->

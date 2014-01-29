@@ -1,0 +1,76 @@
+<!--#set var="title" value="Welcome to Gnumeric!" --><!--#set var="rootdir" value="." --><!--#include virtual="header-begin.shtml" -->
+    <link rel="stylesheet" href="style/index.css" type="text/css"/>
+<!--#include virtual="header-end.shtml" -->
+
+      <div>
+      <div class="floatright"><a href="screenshots/gnumeric-sample.png"><img
+      id="sampleimage" src="screenshots/gnumeric-sample-thumb.png" alt="Gnumeric
+      Example" /></a><p><a href="screenshots/gnumeric-sample.gnumeric">Download Sample</a></p></div>
+      <h1>Welcome to Gnumeric!</h1>
+      <p>The Gnumeric spreadsheet is part of the <a
+      href="http://www.gnome.org">GNOME</a> desktop environment: a
+      project to create a free, user friendly desktop environment.</p> 
+      <p>The goal of Gnumeric is to be the best possible spreadsheet.  We are
+      not attempting to clone existing applications.  However, Gnumeric
+      can read files saved with other spreadsheets and we offer      
+      a customizable feel that attempts to minimize the costs 
+      of transition.</p>
+      </div>
+
+      <div class="floatflush">
+      <h2>Gnumeric is...</h2>
+      <dl>
+	<dt>Free!</dt>
+	<dd>Gnumeric and its source code are available free of charge,
+	licensed under the terms of the GNU General Public
+	License <a href="http://git.gnome.org/browse/gnumeric/tree/COPYING-gpl2">version
+	2</a>
+	or <a href="http://git.gnome.org/browse/gnumeric/tree/COPYING-gpl3">version
+	3</a>.</dd>
+
+	<dt>Fast!</dt>
+	<dd>Gnumeric handles large spreadsheets
+	while remaining responsive.</dd>
+
+	<dt>Accurate!</dt>
+	<dd>A spreadsheet should calculate the right answer.  Gnumeric's
+	built-in functions and tools are accurate.  A <a
+	href="http://www.csdassn.org/software_reports.cfm">report</a> praised
+	Gnumeric as more accurate than leading proprietary spreadsheets.</dd>
+      </dl>
+      <p>For a comprehensive list of features,
+      <a href="features.shtml">go here</a>.</p>
+
+      <h2>News</h2>
+      <p>November 2013:
+      <a href="announcements/1.12/gnumeric-1.12.9.shtml">Gnumeric
+      1.12.9 is out</a>.  Get it
+      from <a href="downloads.shtml">here</a>!  We have
+      a <a href="http://people.gnome.org/~mortenw/gnumeric/gnumeric-1.12.9-20131128.exe">Win32
+      build</a> of that.  (Sources in the same directory except for
+      parts found on this site.  Note, however, that recompilation is
+      very difficult.)</p>
+
+      <p>October 2013:
+      <a href="announcements/1.12/gnumeric-1.12.8.shtml">Gnumeric
+      1.12.8 is out</a>.  Get it
+      from <a href="downloads.shtml">here</a>!  We have
+      an <a href="http://people.gnome.org/~mortenw/gnumeric/gnumeric-1.12.8-20131016.exe">experimental
+      Win32 build</a> of that.  (Sources in the same directory except
+      for parts found on this site.  Note, however, that recompilation
+      is very difficult.)  <em>This is not ready for production use
+      yet.</em>  Crashes are likely to eat your data.  Do not ask for
+      support.</p>
+
+      <p><a href="past-news.shtml">Older news...</a></p>
+
+
+      <h2>Migration</h2>
+      <p>Gnumeric will import your existing Microsoft Excel files.
+      Import filters also exist for Lotus 1-2-3, Applix, Sylk, XBase,
+      Open Office, Quattro Pro, Dif, Plan Perfect, and Oleo files, but these
+      import filters are less complete.  If you have knowledge of these file
+      formats or have access to the underlying program,
+       <a href="how-to-help.shtml">maybe you can help</a>.</p>
+      </div>
+<!--#include virtual="footer.shtml" -->

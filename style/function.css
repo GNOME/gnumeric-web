@@ -1,0 +1,11 @@
+span.function {
+  font-family: monospace;
+}
+
+span.parameter {
+  font-style: italic;
+}
+
+span.synopsis {
+  white-space: nowrap;
+}

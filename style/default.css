@@ -1,0 +1,169 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+head {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  background: #f0f0f0;
+  font-family: "Liberation Sans", sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 12pt;
+}
+
+
+/*These are the top-level divs.*/
+div {
+  margin: 0px;
+  padding: 0px;
+}
+div#header {
+  margin: 0px;
+  padding: 10px;
+  width: 100%;
+  height: 75px;
+}
+
+#slogan {
+  font-size: 18pt;
+  margin:0;
+}
+#subslogan {
+    font-size:14pt;
+    margin:0;
+    text-decoration:none;
+}
+div.sidebar {
+  width: 10.2em;
+  margin: 0px;
+  margin-bottom: 0.5ex;
+  padding: 0px;
+  margin-top: 0.5ex;
+  background: #ffdca5;
+  color: black;
+  text-decoration: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #44f;
+}
+div.sidebar div {
+  margin: 0px;
+  padding: 0px;
+  background: #6a9e6a;
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: #88f;
+}
+div.sidebar ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+div.sidebar li {
+  padding-bottom: 0.12em;
+}
+div.sidebar li:hover {
+  background: #f0f050;
+}
+div.sidebar span {
+  padding-left: 1em;
+}
+div.sidebar span:hover {
+  background: #f0f050;
+}
+div.sidebar :link {
+  color: black;
+  font-weight:normal;
+}
+div.sidebar :visited {
+  color: #0000dd;
+}
+div.sidebar ul {
+  margin: 0px;
+  padding: 0px;
+  padding-left: 1em;
+}
+div.sidebar h2 {
+  font-size: 13pt;
+  background-color:#324a32;
+  border-radius:0;
+  color:white;
+}
+div.sidebar h3 {
+  font-size: 12pt;
+}
+
+div.floatflush {
+  clear: both;
+}
+
+div#content {
+  position: absolute;
+  margin-left: 11em;
+  margin-right: 0.5em;
+  top: 90px;
+}
+
+img.jsimg {
+  height: 1.5ex;
+  padding-right: 0.25em;
+}
+
+h1 { 
+    font-family:"Ubuntu", sans-serif;
+}
+
+/*General formatting info; not just for the sidebars*/
+h2 {
+  margin: 0px;
+  padding: 5px;
+  background: #c3c5ff;
+  text-indent: 3px;
+  border-radius:10px;
+}
+
+h3 {
+  margin: 0px;
+  padding: 0px;
+  background: #c3c5ff;
+  text-indent: 3px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 0.5em;
+}
+
+:link {
+  text-decoration: none;
+  color:#3366ff;
+  font-weight:bold;
+}
+:link:hover {
+  text-decoration: underline;
+  color:orange;
+}
+:visited {
+  text-decoration: none;
+}
+:visited:hover {
+  text-decoration: underline;
+}
+
+#logo {
+    float:left;
+    margin:10px;
+    margin-top:0;
+}

@@ -1,0 +1,30 @@
+<!--#set var="title" value="Gnumeric 1.12.0" --><!--#set var="rootdir" value="../.." --><!--#include virtual="../../header-begin.shtml" -->
+<!--#include virtual="../../header-end.shtml" -->
+
+  <h2>Gnumeric 1.12.0 aka &quot;TBD&quot; is now available.</h2>
+  <p>The Gnumeric Team is pleased to announce the availability of
+  Gnumeric version 1.12.0.  This is mostly the same as the release
+  candidate 1.11.91.</p>
+  <ul>
+  <li>Andreas
+    <ul>
+      <li>
+	Fix xlsx save problem.  [<a href="https://bugzilla.gnome.org/show_bug.cgi?id=690203">Bug 690203</a>].
+      </li>
+    </ul>
+  </li>
+  </ul>
+
+  <h2>goffice 0.10.0 aka &quot;TBD&quot; is now available.</h2>
+  <p>The Gnumeric Team is pleased to announce the availability of
+    goffice version 0.10.0.  This is mostly the same as the release
+    candidate 0.9.91.</p>
+
+  <ul>
+  </ul>
+  <h2>Availability</h2>
+  <blockquote>
+    <p><a href="http://ftp.gnome.org/pub/GNOME/sources/gnumeric/1.12/">http://ftp.gnome.org/pub/GNOME/sources/gnumeric/1.12/</a></p>
+    <p><a href="http://ftp.gnome.org/pub/GNOME/sources/goffice/0.10/">http://ftp.gnome.org/pub/GNOME/sources/goffice/0.10/</a></p>
+  </blockquote>
+<!--#include virtual="../../footer.shtml" -->
