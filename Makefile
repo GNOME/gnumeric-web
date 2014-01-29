@@ -1,5 +1,6 @@
 WWWFILES =						\
 	.htaccess					\
+	404.html					\
 	building.shtml					\
 	contact-info.shtml				\
 	credits.shtml					\
