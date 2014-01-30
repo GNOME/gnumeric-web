@@ -485,3 +485,6 @@ all: manifest
 
 manifest: Makefile
 	echo $(WWWFILES) >$@
+
+do-sync: ftp-sync manifest $(WWWFILES)
+	./ftp-sync manifest
