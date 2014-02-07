@@ -2,3 +2,4 @@ Options +Includes
 AddType text/html .shtml
 AddOutputFilter INCLUDES .shtml
 AddDefaultCharset utf-8
+ErrorDocument 404 /404.html
