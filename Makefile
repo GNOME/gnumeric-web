@@ -1,35 +1,18 @@
 WWWFILES =						\
 	.htaccess					\
 	404.html					\
-	building.shtml					\
-	contact-info.shtml				\
-	credits.shtml					\
+	index.html					\
+	contact.html					\
 	date-time-formats.shtml				\
-	downloads.shtml					\
-	faq.shtml					\
-	features.shtml					\
-	footer.shtml					\
-	function-info.shtml				\
-	functions.shtml					\
-	Gnumeric.svg					\
-	header-begin.shtml				\
-	header-end.shtml				\
-	how-to-help.shtml				\
-	index.shtml					\
+	development.html				\
+	download.html					\
+	past-news.html					\
 	logo.png					\
-	mailing-list.shtml				\
-	past-news.shtml					\
-	technology.shtml				\
-	to-do.shtml					\
+	gnumeric.png					\
 							\
-	style/default.css				\
-	style/downloads.css				\
-	style/function.css				\
-	style/index.css					\
+	announcements/index.html			\
 							\
-	announcements/index.shtml			\
-							\
-	announcements/ancient/index.shtml		\
+	announcements/ancient/index.html		\
 	announcements/ancient/gnumeric-0.3		\
 	announcements/ancient/gnumeric-0.4		\
 	announcements/ancient/gnumeric-0.5		\
@@ -96,7 +79,7 @@ WWWFILES =						\
 	announcements/ancient/gnumeric-0.99.1		\
 	announcements/ancient/gnumeric-0.x.html		\
 							\
-	announcements/1.0/index.shtml			\
+	announcements/1.0/index.html			\
 	announcements/1.0/gnumeric-1.0.0		\
 	announcements/1.0/gnumeric-1.0.1		\
 	announcements/1.0/gnumeric-1.0.2		\
@@ -112,7 +95,7 @@ WWWFILES =						\
 	announcements/1.0/gnumeric-1.0.12		\
 	announcements/1.0/gnumeric-1.0.13		\
 							\
-	announcements/1.1/index.shtml			\
+	announcements/1.1/index.html			\
 	announcements/1.1/gnumeric-1.1.1		\
 	announcements/1.1/gnumeric-1.1.2		\
 	announcements/1.1/gnumeric-1.1.3		\
@@ -132,7 +115,7 @@ WWWFILES =						\
 	announcements/1.1/gnumeric-1.1.20		\
 	announcements/1.1/gnumeric-1.1.90		\
 							\
-	announcements/1.2/index.shtml			\
+	announcements/1.2/index.html			\
 	announcements/1.2/gnumeric-1.2.0		\
 	announcements/1.2/gnumeric-1.2.0.html		\
 	announcements/1.2/gnumeric-1.2.1.html		\
@@ -144,7 +127,7 @@ WWWFILES =						\
 	announcements/1.2/gnumeric-1.2.12.html		\
 	announcements/1.2/gnumeric-1.2.13.html		\
 							\
-	announcements/1.3/index.shtml			\
+	announcements/1.3/index.html			\
 	announcements/1.3/gnumeric-1.3.0.html		\
 	announcements/1.3/gnumeric-1.3.1.html		\
 	announcements/1.3/gnumeric-1.3.2.html		\
@@ -153,14 +136,14 @@ WWWFILES =						\
 	announcements/1.3/gnumeric-1.3.92.html		\
 	announcements/1.3/gnumeric-1.3.93.html		\
 							\
-	announcements/1.4/index.shtml			\
-	announcements/1.4/gnumeric-1.4.shtml		\
+	announcements/1.4/index.html			\
+	announcements/1.4/gnumeric-1.4.html		\
 	announcements/1.4/gnumeric-1.4.0.html		\
 	announcements/1.4/gnumeric-1.4.1.html		\
 	announcements/1.4/gnumeric-1.4.2.html		\
 	announcements/1.4/gnumeric-1.4.3.html		\
 							\
-	announcements/1.5/index.shtml			\
+	announcements/1.5/index.html			\
 	announcements/1.5/gnumeric-1.5.0.html		\
 	announcements/1.5/gnumeric-1.5.1.html		\
 	announcements/1.5/gnumeric-1.5.2.html		\
@@ -169,14 +152,14 @@ WWWFILES =						\
 	announcements/1.5/gnumeric-1.5.5.html		\
 	announcements/1.5/gnumeric-1.5.90.html		\
 							\
-	announcements/1.6/index.shtml			\
-	announcements/1.6/gnumeric-1.6.shtml		\
+	announcements/1.6/index.html			\
+	announcements/1.6/gnumeric-1.6.html		\
 	announcements/1.6/gnumeric-1.6.0.html		\
 	announcements/1.6/gnumeric-1.6.1.html		\
 	announcements/1.6/gnumeric-1.6.2.html		\
 	announcements/1.6/gnumeric-1.6.3.html		\
 							\
-	announcements/1.7/index.shtml			\
+	announcements/1.7/index.html			\
 	announcements/1.7/gnumeric-1.7.0.html		\
 	announcements/1.7/gnumeric-1.7.1.html		\
 	announcements/1.7/gnumeric-1.7.2.html		\
@@ -195,291 +178,85 @@ WWWFILES =						\
 	announcements/1.7/gnumeric-1.7.90.html		\
 	announcements/1.7/gnumeric-1.7.91.html		\
 							\
-	announcements/1.8/index.shtml			\
-	announcements/1.8/gnumeric-1.8.shtml		\
-	announcements/1.8/gnumeric-1.8.0.shtml		\
-	announcements/1.8/gnumeric-1.8.1.shtml		\
-	announcements/1.8/gnumeric-1.8.2.shtml		\
-	announcements/1.8/gnumeric-1.8.3.shtml		\
+	announcements/1.8/index.html			\
+	announcements/1.8/gnumeric-1.8.html		\
+	announcements/1.8/gnumeric-1.8.0.html		\
+	announcements/1.8/gnumeric-1.8.1.html		\
+	announcements/1.8/gnumeric-1.8.2.html		\
+	announcements/1.8/gnumeric-1.8.3.html		\
 							\
-	announcements/1.9/index.shtml			\
-	announcements/1.9/gnumeric-1.9.shtml		\
-	announcements/1.9/gnumeric-1.9.0.shtml		\
-	announcements/1.9/gnumeric-1.9.1.shtml		\
-	announcements/1.9/gnumeric-1.9.2.shtml		\
-	announcements/1.9/gnumeric-1.9.3.shtml		\
-	announcements/1.9/gnumeric-1.9.4.shtml		\
-	announcements/1.9/gnumeric-1.9.5.shtml		\
-	announcements/1.9/gnumeric-1.9.6.shtml		\
-	announcements/1.9/gnumeric-1.9.7.shtml		\
-	announcements/1.9/gnumeric-1.9.8.shtml		\
-	announcements/1.9/gnumeric-1.9.9.shtml		\
-	announcements/1.9/gnumeric-1.9.10.shtml		\
-	announcements/1.9/gnumeric-1.9.11.shtml		\
-	announcements/1.9/gnumeric-1.9.12.shtml		\
-	announcements/1.9/gnumeric-1.9.13.shtml		\
-	announcements/1.9/gnumeric-1.9.14.shtml		\
-	announcements/1.9/gnumeric-1.9.15.shtml		\
-	announcements/1.9/gnumeric-1.9.16.shtml		\
-	announcements/1.9/gnumeric-1.9.17.shtml		\
-	announcements/1.9/gnumeric-1.9.18.shtml		\
+	announcements/1.9/index.html			\
+	announcements/1.9/gnumeric-1.9.html		\
+	announcements/1.9/gnumeric-1.9.0.html		\
+	announcements/1.9/gnumeric-1.9.1.html		\
+	announcements/1.9/gnumeric-1.9.2.html		\
+	announcements/1.9/gnumeric-1.9.3.html		\
+	announcements/1.9/gnumeric-1.9.4.html		\
+	announcements/1.9/gnumeric-1.9.5.html		\
+	announcements/1.9/gnumeric-1.9.6.html		\
+	announcements/1.9/gnumeric-1.9.7.html		\
+	announcements/1.9/gnumeric-1.9.8.html		\
+	announcements/1.9/gnumeric-1.9.9.html		\
+	announcements/1.9/gnumeric-1.9.10.html		\
+	announcements/1.9/gnumeric-1.9.11.html		\
+	announcements/1.9/gnumeric-1.9.12.html		\
+	announcements/1.9/gnumeric-1.9.13.html		\
+	announcements/1.9/gnumeric-1.9.14.html		\
+	announcements/1.9/gnumeric-1.9.15.html		\
+	announcements/1.9/gnumeric-1.9.16.html		\
+	announcements/1.9/gnumeric-1.9.17.html		\
+	announcements/1.9/gnumeric-1.9.18.html		\
 							\
-	announcements/1.10/index.shtml			\
-	announcements/1.10/gnumeric-1.10.shtml		\
-	announcements/1.10/gnumeric-1.10.0.shtml	\
-	announcements/1.10/gnumeric-1.10.1.shtml	\
-	announcements/1.10/gnumeric-1.10.2.shtml	\
-	announcements/1.10/gnumeric-1.10.3.shtml	\
-	announcements/1.10/gnumeric-1.10.4.shtml	\
-	announcements/1.10/gnumeric-1.10.5.shtml	\
-	announcements/1.10/gnumeric-1.10.6.shtml	\
-	announcements/1.10/gnumeric-1.10.7.shtml	\
-	announcements/1.10/gnumeric-1.10.8.shtml	\
-	announcements/1.10/gnumeric-1.10.9.shtml	\
-	announcements/1.10/gnumeric-1.10.10.shtml	\
-	announcements/1.10/gnumeric-1.10.11.shtml	\
-	announcements/1.10/gnumeric-1.10.12.shtml	\
-	announcements/1.10/gnumeric-1.10.13.shtml	\
-	announcements/1.10/gnumeric-1.10.14.shtml	\
-	announcements/1.10/gnumeric-1.10.15.shtml	\
-	announcements/1.10/gnumeric-1.10.16.shtml	\
-	announcements/1.10/gnumeric-1.10.17.shtml	\
+	announcements/1.10/index.html			\
+	announcements/1.10/gnumeric-1.10.html		\
+	announcements/1.10/gnumeric-1.10.0.html		\
+	announcements/1.10/gnumeric-1.10.1.html		\
+	announcements/1.10/gnumeric-1.10.2.html		\
+	announcements/1.10/gnumeric-1.10.3.html		\
+	announcements/1.10/gnumeric-1.10.4.html		\
+	announcements/1.10/gnumeric-1.10.5.html		\
+	announcements/1.10/gnumeric-1.10.6.html		\
+	announcements/1.10/gnumeric-1.10.7.html		\
+	announcements/1.10/gnumeric-1.10.8.html		\
+	announcements/1.10/gnumeric-1.10.9.html		\
+	announcements/1.10/gnumeric-1.10.10.html	\
+	announcements/1.10/gnumeric-1.10.11.html	\
+	announcements/1.10/gnumeric-1.10.12.html	\
+	announcements/1.10/gnumeric-1.10.13.html	\
+	announcements/1.10/gnumeric-1.10.14.html	\
+	announcements/1.10/gnumeric-1.10.15.html	\
+	announcements/1.10/gnumeric-1.10.16.html	\
+	announcements/1.10/gnumeric-1.10.17.html	\
 							\
-	announcements/1.11/index.shtml			\
-	announcements/1.11/gnumeric-1.11.0.shtml	\
-	announcements/1.11/gnumeric-1.11.1.shtml	\
-	announcements/1.11/gnumeric-1.11.2.shtml	\
-	announcements/1.11/gnumeric-1.11.3.shtml	\
-	announcements/1.11/gnumeric-1.11.4.shtml	\
-	announcements/1.11/gnumeric-1.11.5.shtml	\
-	announcements/1.11/gnumeric-1.11.6.shtml	\
-	announcements/1.11/gnumeric-1.11.90.shtml	\
-	announcements/1.11/gnumeric-1.11.91.shtml	\
-	announcements/1.11/gnumeric-1.11.shtml		\
+	announcements/1.11/index.html			\
+	announcements/1.11/gnumeric-1.11.html		\
+	announcements/1.11/gnumeric-1.11.0.html		\
+	announcements/1.11/gnumeric-1.11.1.html		\
+	announcements/1.11/gnumeric-1.11.2.html		\
+	announcements/1.11/gnumeric-1.11.3.html		\
+	announcements/1.11/gnumeric-1.11.4.html		\
+	announcements/1.11/gnumeric-1.11.5.html		\
+	announcements/1.11/gnumeric-1.11.6.html		\
+	announcements/1.11/gnumeric-1.11.90.html	\
+	announcements/1.11/gnumeric-1.11.91.html	\
 							\
-	announcements/1.12/index.shtml			\
-	announcements/1.12/gnumeric-1.12.shtml		\
-	announcements/1.12/gnumeric-1.12.0.shtml	\
-	announcements/1.12/gnumeric-1.12.1.shtml	\
-	announcements/1.12/gnumeric-1.12.2.shtml	\
-	announcements/1.12/gnumeric-1.12.3.shtml	\
-	announcements/1.12/gnumeric-1.12.4.shtml	\
-	announcements/1.12/gnumeric-1.12.5.shtml	\
-	announcements/1.12/gnumeric-1.12.6.shtml	\
-	announcements/1.12/gnumeric-1.12.7.shtml	\
-	announcements/1.12/gnumeric-1.12.8.shtml	\
-	announcements/1.12/gnumeric-1.12.9.shtml	\
+	announcements/1.12/index.html			\
+	announcements/1.12/gnumeric-1.12.html		\
+	announcements/1.12/gnumeric-1.12.0.html		\
+	announcements/1.12/gnumeric-1.12.1.html		\
+	announcements/1.12/gnumeric-1.12.2.html		\
+	announcements/1.12/gnumeric-1.12.3.html		\
+	announcements/1.12/gnumeric-1.12.4.html		\
+	announcements/1.12/gnumeric-1.12.5.html		\
+	announcements/1.12/gnumeric-1.12.6.html		\
+	announcements/1.12/gnumeric-1.12.7.html		\
+	announcements/1.12/gnumeric-1.12.8.html		\
+	announcements/1.12/gnumeric-1.12.9.html		\
 							\
-	changelogs/index.shtml				\
-							\
-	changelogs/ancient/index.shtml			\
-	changelogs/ancient/gnumeric-0.66.txt		\
-	changelogs/ancient/gnumeric-0.67.txt		\
-	changelogs/ancient/gnumeric-0.68.txt		\
-	changelogs/ancient/gnumeric-0.69.txt		\
-	changelogs/ancient/gnumeric-0.70.txt		\
-	changelogs/ancient/gnumeric-0.71.txt		\
-	changelogs/ancient/gnumeric-0.72.txt		\
-	changelogs/ancient/gnumeric-0.73.txt		\
-	changelogs/ancient/gnumeric-0.74.txt		\
-	changelogs/ancient/gnumeric-0.75.txt		\
-	changelogs/ancient/gnumeric-0.76.txt		\
-	changelogs/ancient/gnumeric-0.99.0.txt		\
-	changelogs/ancient/gnumeric-0.99.1.txt		\
-							\
-	changelogs/1.0/index.shtml			\
-	changelogs/1.0/changelog-1.0.0.txt		\
-	changelogs/1.0/changelog-1.0.1.txt		\
-	changelogs/1.0/changelog-1.0.2.txt		\
-	changelogs/1.0/changelog-1.0.3.txt		\
-	changelogs/1.0/changelog-1.0.4.txt		\
-	changelogs/1.0/changelog-1.0.5.txt		\
-	changelogs/1.0/changelog-1.0.6.txt		\
-	changelogs/1.0/changelog-1.0.7.txt		\
-	changelogs/1.0/changelog-1.0.8.txt		\
-	changelogs/1.0/changelog-1.0.9.txt		\
-	changelogs/1.0/changelog-1.0.10.txt		\
-	changelogs/1.0/changelog-1.0.11.txt		\
-	changelogs/1.0/changelog-1.0.12.txt		\
-	changelogs/1.0/changelog-1.0.13.txt		\
-							\
-	changelogs/1.1/index.shtml			\
-	changelogs/1.1/changelog-1.1.0.txt		\
-	changelogs/1.1/changelog-1.1.1.txt		\
-	changelogs/1.1/changelog-1.1.2.txt		\
-	changelogs/1.1/changelog-1.1.3.txt		\
-	changelogs/1.1/changelog-1.1.5.txt		\
-	changelogs/1.1/changelog-1.1.6.txt		\
-	changelogs/1.1/changelog-1.1.7.txt		\
-	changelogs/1.1/changelog-1.1.8.txt		\
-	changelogs/1.1/changelog-1.1.9.txt		\
-	changelogs/1.1/changelog-1.1.10.txt		\
-	changelogs/1.1/changelog-1.1.11.txt		\
-	changelogs/1.1/changelog-1.1.12.txt		\
-	changelogs/1.1/changelog-1.1.14.txt		\
-	changelogs/1.1/changelog-1.1.15.txt		\
-	changelogs/1.1/changelog-1.1.16.txt		\
-	changelogs/1.1/changelog-1.1.18.txt		\
-	changelogs/1.1/changelog-1.1.19.txt		\
-	changelogs/1.1/changelog-1.1.20.txt		\
-	changelogs/1.1/changelog-1.1.90.txt		\
-							\
-	changelogs/1.2/index.shtml			\
-	changelogs/1.2/changelog-1.2.0.txt		\
-	changelogs/1.2/changelog-1.2.1.txt		\
-	changelogs/1.2/changelog-1.2.2.txt		\
-	changelogs/1.2/changelog-1.2.3.txt		\
-	changelogs/1.2/changelog-1.2.4.txt		\
-	changelogs/1.2/changelog-1.2.5.txt		\
-	changelogs/1.2/changelog-1.2.6.txt		\
-	changelogs/1.2/changelog-1.2.7.txt		\
-	changelogs/1.2/changelog-1.2.8.txt		\
-	changelogs/1.2/changelog-1.2.9.txt		\
-	changelogs/1.2/changelog-1.2.10.txt		\
-	changelogs/1.2/changelog-1.2.11.txt		\
-	changelogs/1.2/changelog-1.2.12.txt		\
-	changelogs/1.2/changelog-1.2.13.txt		\
-							\
-	changelogs/1.3/index.shtml			\
-	changelogs/1.3/changelog-1.3.0.txt		\
-	changelogs/1.3/changelog-1.3.1.txt		\
-	changelogs/1.3/changelog-1.3.2.txt		\
-	changelogs/1.3/changelog-1.3.90.txt		\
-	changelogs/1.3/changelog-1.3.91.txt		\
-	changelogs/1.3/changelog-1.3.92.txt		\
-	changelogs/1.3/changelog-1.3.93.txt		\
-							\
-	changelogs/1.4/index.shtml			\
-	changelogs/1.4/changelog-1.4.0.txt		\
-	changelogs/1.4/changelog-1.4.1.txt		\
-	changelogs/1.4/changelog-1.4.2.txt		\
-	changelogs/1.4/changelog-1.4.3.txt		\
-							\
-	changelogs/1.5/index.shtml			\
-	changelogs/1.5/changelog-1.5.0.txt		\
-	changelogs/1.5/changelog-1.5.1.txt		\
-	changelogs/1.5/changelog-1.5.2.txt		\
-	changelogs/1.5/changelog-1.5.3.txt		\
-	changelogs/1.5/changelog-1.5.4.txt		\
-	changelogs/1.5/changelog-1.5.5.txt		\
-	changelogs/1.5/changelog-1.5.90.txt		\
-							\
-	changelogs/1.6/index.shtml			\
-	changelogs/1.6/changelog-1.6.0.txt		\
-	changelogs/1.6/changelog-1.6.1.txt		\
-	changelogs/1.6/changelog-1.6.2.txt		\
-	changelogs/1.6/changelog-1.6.3.txt		\
-							\
-	changelogs/1.7/index.shtml			\
-	changelogs/1.7/changelog-1.7.0.txt		\
-	changelogs/1.7/changelog-1.7.1.txt		\
-	changelogs/1.7/changelog-1.7.2.txt		\
-	changelogs/1.7/changelog-1.7.3.txt		\
-	changelogs/1.7/changelog-1.7.4.txt		\
-	changelogs/1.7/changelog-1.7.5.txt		\
-	changelogs/1.7/changelog-1.7.6.txt		\
-	changelogs/1.7/changelog-1.7.7.txt		\
-	changelogs/1.7/changelog-1.7.8.txt		\
-	changelogs/1.7/changelog-1.7.9.txt		\
-	changelogs/1.7/changelog-1.7.10.txt		\
-	changelogs/1.7/changelog-1.7.11.txt		\
-	changelogs/1.7/changelog-1.7.12.txt		\
-	changelogs/1.7/changelog-1.7.13.txt		\
-	changelogs/1.7/changelog-1.7.14.txt		\
-	changelogs/1.7/changelog-1.7.90.txt		\
-	changelogs/1.7/changelog-1.7.91.txt		\
-							\
-	changelogs/1.8/index.shtml			\
-	changelogs/1.8/changelog-1.8.0.txt		\
-	changelogs/1.8/changelog-1.8.1.txt		\
-	changelogs/1.8/changelog-1.8.2.txt		\
-	changelogs/1.8/changelog-1.8.3.txt		\
-							\
-	changelogs/1.9/index.shtml			\
-	changelogs/1.9/changelog-1.9.0.txt		\
-	changelogs/1.9/changelog-1.9.1.txt		\
-	changelogs/1.9/changelog-1.9.2.txt		\
-	changelogs/1.9/changelog-1.9.3.txt		\
-	changelogs/1.9/changelog-1.9.4.txt		\
-	changelogs/1.9/changelog-1.9.5.txt		\
-	changelogs/1.9/changelog-1.9.6.txt		\
-	changelogs/1.9/changelog-1.9.7.txt		\
-	changelogs/1.9/changelog-1.9.8.txt		\
-	changelogs/1.9/changelog-1.9.9.txt		\
-	changelogs/1.9/changelog-1.9.10.txt		\
-	changelogs/1.9/changelog-1.9.11.txt		\
-	changelogs/1.9/changelog-1.9.12.txt		\
-	changelogs/1.9/changelog-1.9.13.txt		\
-	changelogs/1.9/changelog-1.9.14.txt		\
-	changelogs/1.9/changelog-1.9.15.txt		\
-	changelogs/1.9/changelog-1.9.16.txt		\
-	changelogs/1.9/changelog-1.9.17.txt		\
-	changelogs/1.9/changelog-1.9.18.txt		\
-							\
-	changelogs/1.10/index.shtml			\
-	changelogs/1.10/changelog-1.10.0.txt		\
-	changelogs/1.10/changelog-1.10.1.txt		\
-	changelogs/1.10/changelog-1.10.2.txt		\
-	changelogs/1.10/changelog-1.10.3.txt		\
-	changelogs/1.10/changelog-1.10.4.txt		\
-	changelogs/1.10/changelog-1.10.5.txt		\
-	changelogs/1.10/changelog-1.10.6.txt		\
-	changelogs/1.10/changelog-1.10.7.txt		\
-	changelogs/1.10/changelog-1.10.8.txt		\
-	changelogs/1.10/changelog-1.10.9.txt		\
-	changelogs/1.10/changelog-1.10.10.txt		\
-	changelogs/1.10/changelog-1.10.11.txt		\
-	changelogs/1.10/changelog-1.10.12.txt		\
-	changelogs/1.10/changelog-1.10.13.txt		\
-	changelogs/1.10/changelog-1.10.14.txt		\
-	changelogs/1.10/changelog-1.10.15.txt		\
-	changelogs/1.10/changelog-1.10.16.txt		\
-	changelogs/1.10/changelog-1.10.17.txt		\
-							\
-	changelogs/1.11/index.shtml			\
-	changelogs/1.11/changelog-1.11.0.txt		\
-	changelogs/1.11/changelog-1.11.1.txt		\
-	changelogs/1.11/changelog-1.11.2.txt		\
-	changelogs/1.11/changelog-1.11.3.txt		\
-	changelogs/1.11/changelog-1.11.4.txt		\
-	changelogs/1.11/changelog-1.11.5.txt		\
-	changelogs/1.11/changelog-1.11.6.txt		\
-	changelogs/1.11/changelog-1.11.90.txt		\
-	changelogs/1.11/changelog-1.11.91.txt		\
-							\
-	changelogs/1.12/index.shtml			\
-	changelogs/1.12/changelog-1.12.0.txt		\
-	changelogs/1.12/changelog-1.12.1.txt		\
-	changelogs/1.12/changelog-1.12.2.txt		\
-	changelogs/1.12/changelog-1.12.3.txt		\
-	changelogs/1.12/changelog-1.12.4.txt		\
-	changelogs/1.12/changelog-1.12.5.txt		\
-	changelogs/1.12/changelog-1.12.6.txt		\
-	changelogs/1.12/changelog-1.12.7.txt		\
-	changelogs/1.12/changelog-1.12.8.txt		\
-	changelogs/1.12/changelog-1.12.9.txt		\
-							\
-	screenshots/analysis-tools.png			\
-	screenshots/editing.png				\
-	screenshots/format-background.png		\
-	screenshots/format-border.png			\
-	screenshots/format-font.png			\
-	screenshots/format-number.png			\
-	screenshots/gnumeric-sample-thumb.png		\
-	screenshots/gnumeric-sample.png			\
-	screenshots/gnumeric-sample.gnumeric		\
-	screenshots/goal-seek.png			\
-	screenshots/patterns.png			\
-	screenshots/power-example.png			\
-	screenshots/print-header-footer.png		\
-	screenshots/print-margins.png			\
-	screenshots/print-page.png			\
-	screenshots/print-preview.png			\
-	screenshots/print-setup.png			\
-	screenshots/print-zoom.png			\
-	screenshots/regression.png			\
-	screenshots/sample-chart.png			\
-	screenshots/startup.png
+	style/date.png					\
+	style/gnumeric52.png				\
+	style/style.css
+
 
 all: manifest
 
