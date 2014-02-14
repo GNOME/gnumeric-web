@@ -1,4 +1,12 @@
-<!--#set var="title" value="Functions" --><!--#set var="rootdir" value="." --><!--#include virtual="header-begin.shtml" -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- DEFINE current=Home -->
+<!-- MARKER: start-header -->
+<head>
+<title>Gnumeric</title>
+<link rel="stylesheet" href="style/style.css" type="text/css" />
+<link rel="icon" type="image/png" href="logo.png" />
 <style type="text/css"><!--
   div.functiongroup {
     margin-top: 1em;
@@ -33,9 +41,30 @@
   td.imp-devel          { background: #ff6c00; }
   td.imp-gnumeric       { background: #44be18; }
 --></style>
-<!--#include virtual="header-end.shtml" --><h1>Gnumeric Sheet Functions</h1>
-<p>Gnumeric currently has 607 functions for use in spreadsheets.
-214 of these are unique to Gnumeric.</p>
+</head>
+<body>
+<div id="wrap">
+  <a href="/"><div id="header">
+    <h1 id="logo-text"><span>Gnumeric</span></h1>
+    <p id="slogan">Free, Fast, Accurate &mdash; Pick Any Three!</p>
+    <img id="logo" src="gnumeric.png" alt="logo" class="float-right"/>
+    </div></a>
+
+  <div id="nav">
+    <ul>
+      <li id="current"><a href="/">Home</a></li>
+      <li><a href="development.html">Development</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <div id="content-wrap">
+    <!-- MARKER: start-main -->
+    <div id="main">
+      <div class="generalitem">
+	<h2><span class="gnumeric-bullet"></span>Gnumeric Sheet Functions</h2>
+	<p>Gnumeric currently has 607 functions for use in spreadsheets.
+      214 of these are unique to Gnumeric.</p>
 <h2>Bitwise Operations</h2>
 <div class="functiongroup"><table class="functiongroup">
 <tr class="header"><td>Function</td><td>Implementation</td><td>Testing</td></tr>
@@ -3139,4 +3168,12 @@
 <td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: periodogram testing">Basic</a></td>
 </tr>
 </table></div>
-<!--#include virtual="footer.shtml"-->
+      </div>
+    </div>
+    <!-- MARKER: end-main -->
+    <!-- MARKER: start-sidebar -->
+    <!-- MARKER: end-sidebar -->
+  </div>
+</div>
+</body>
+</html>

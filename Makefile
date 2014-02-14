@@ -6,6 +6,7 @@ WWWFILES =						\
 	date-time-formats.shtml				\
 	development.html				\
 	download.html					\
+	functions.shtml					\
 	past-news.html					\
 	logo.png					\
 	gnumeric.png					\
@@ -266,3 +267,4 @@ manifest: Makefile
 
 do-sync: ftp-sync manifest $(WWWFILES)
 	./ftp-sync manifest
+	git status --untracked-files=no

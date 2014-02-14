@@ -1,9 +1,33 @@
-<!--#set var="title" value="Translation Help For Date and Time Formats" --><!--#set var="rootdir" value="." --><!--#include virtual="header-begin.shtml" -->
-    <link rel="stylesheet" href="style/index.css" type="text/css"/>
-<!--#include virtual="header-end.shtml" -->
-      <div>
-      <h1>Date and Time Formats</h1>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- MARKER: start-header -->
+<head>
+<title>Gnumeric</title>
+<link rel="stylesheet" href="/style/style.css" type="text/css" />
+<link rel="icon" type="image/png" href="/logo.png" />
+</head>
+<body>
+<div id="wrap">
+  <a href="/"><div id="header">
+    <h1 id="logo-text"><span>Gnumeric</span></h1>
+    <p id="slogan">Free, Fast, Accurate &mdash; Pick Any Three!</p>
+    <img id="logo" src="/gnumeric.png" alt="logo" class="float-right"/>
+    </div></a>
 
+  <div id="nav">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/development.html">Development</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <div id="content-wrap">
+    <!-- MARKER: start-main -->
+    <div id="main">
+      <div class="generalitem">
+	<h2><span class="gnumeric-bullet"></span>Date and Time Formats</h2>
 <p>Gnumeric and Goffice need to know how dates and times are usually written in
 a locale.  We do that using translations of a handful of strings like "*Long
 Date Format" and "*Short Time Format".  These strings should be translated to
@@ -49,4 +73,11 @@ will use a single digit for the hour if possible.</p>
 <p>This defaults to "hh:mm" which is probably ok for most locales.</p>
 
       </div>
-<!--#include virtual="footer.shtml" -->
+    </div>
+    <!-- MARKER: end-main -->
+    <!-- MARKER: start-sidebar -->
+    <!-- MARKER: end-sidebar -->
+  </div>
+</div>
+</body>
+</html>
