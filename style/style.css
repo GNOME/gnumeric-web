@@ -110,48 +110,56 @@ body {
 /* Main Column */
 #main {
 	float: left;
+	/* Leaving room for the sidebar */
 	width: 57%;
 	padding: 0; margin: 0 0 0 45px;
 	display: inline;
 }
 
-#main .newsitem, #main .generalitem, #main .divider {
+#fullmain {
+	float: left;
+	/* No sidebar */
+	padding: 0; margin: 0 0 0 45px;
+	display: inline;
+}
+
+.newsitem, .generalitem, .divider {
     padding: 30px 0px 0px 30px;
 }
 
-#main #newsend {
+#newsend {
     margin-top: 30px;
 }
 
-#main h2 {
+h2 {
     font: bold 20pt 'Trebuchet MS', 'Helvetica Neue', Arial, Sans-serif;
     color: #115280;
     margin-left: -62px;
 }
 
 
-#main .divider h2 {
+.divider h2 {
     margin-left: 0px;
     text-align: center;
 }
 
-#main p {
+#main p, #fullmain p {
     margin-top: 10px;
 }
 
-#main .generalitem .dt-like {
+.generalitem .dt-like {
     font-weight: bold;
 }
 
-#main .generalitem .dd-like {
+.generalitem .dd-like {
     margin-bottom: 0.5em;
 }
 
-#main ul {
+#main ul, #fullmain ul {
 	padding: 7px 20px;
 }
 
-#main li {
+#main li, #fullmain li {
 	padding: 2px 10px;
 }
 
