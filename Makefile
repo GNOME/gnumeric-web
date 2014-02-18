@@ -9,6 +9,7 @@ WWWFILES =						\
 	functions.shtml					\
 	past-news.html					\
 	logo.png					\
+	numerical-issues.html				\
 	gnumeric.png					\
 							\
 	announcements/index.html			\
