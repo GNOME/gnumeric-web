@@ -49,7 +49,8 @@
 	consequences of using "double precision":</p>
 	<ul>
 	  <li>Gnumeric can only work with numbers whose magnitude are
-	  less than about 10<sup>300</sup>.</li>
+	  less than about 10<sup>300</sup>.  This does not normally
+	  cause any problems.</li>
 	  <li>Numbers that are too close to zero will be rounded to
 	  zero.  The limit is about 10<sup>-300</sup>.  Such a
 	  rounding to zero is called underflow.</li>
@@ -68,7 +69,7 @@
 	</ul>
 	<p>"Double precision" has some special values like "Infinity"
 	and "Not-a-number".  When encountered, these are turned into
-	error values in Gnumeric.  We also do out best to hide the
+	error values in Gnumeric.  We also do our best to hide the
 	value "-0" from users.</p>
 	<p>Note: "double precision" is what pretty much every program
 	uses because it is what the hardware works
@@ -111,9 +112,9 @@
 	on the argument value as already rounded to a representable
 	number.  We do not always achieve this goal, i.e., we
 	sometimes calculate a value that is slightly off from the
-	nearest representable value.  If we at least about 15 correct
-	significant digits we are not too concerned by this, but
-	anything less is worth reporting as a bug.  Note, however,
+	nearest representable value.  If we have at least about 15
+	correct significant digits we are not too concerned by this,
+	but anything less is worth reporting as a bug.  Note, however,
 	that Gnumeric in general produces results that are far more
 	accurate than other spreadsheets.</p>
       </div>
@@ -128,7 +129,7 @@
 	operation, called <em>snap-to-zero</em> is also performed for
 	addition and the subtraction implied by comparisons.  Is is
 	not performed for operations deeper in an expression, not even
-	for subtractions surrounded by nothing by a parenthesis.</p>
+	for subtractions surrounded by nothing by parentheses.</p>
 
 	<p>Snap-to-zero has the effect of hiding the small rounding
 	errors that arise by the representation error on 0.01.  That
@@ -145,7 +146,7 @@
 	    A3, where A1=A2 and A2=A3, but A1&lt;&gt;A3.</li>
 	  <li>It is possible for A1-5005=0 to be zero, but
 	    A1-5004-1&lt;&gt;0.</li>
-	  <li>It is possible to have A1=B2, but (say)
+	  <li>It is possible to have A1=A2, but (say)
 	    TAN(A1)&lt;&gt;TAN(A2).</li>
 	  <li>Snap-to-zero can greatly increase rounding errors in
 	    scientific calculations.</li>
@@ -192,7 +193,7 @@
 	    representable, even if some other set of numbers would not
 	    be.  We could, in fact, do that.  We do not do so because
 	    we have no support from the compiler and lower-level
-	    libraries that we uses.  Until they support such a number
+	    libraries that we use.  Until they support such a number
 	    system, we cannot.  To do this right would be a fantastic
 	    amount of work and we do not expect it to happen.</li>
 	  <li><strong>As entered:</strong> some people believe we
