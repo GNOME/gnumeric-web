@@ -6,6 +6,7 @@ WWWFILES =						\
 	date-time-formats.shtml				\
 	development.html				\
 	download.html					\
+	faq.html					\
 	functions.shtml					\
 	past-news.html					\
 	logo.png					\
