@@ -1,5 +1,7 @@
+RewriteBase /
 Options +Includes
 AddType text/html .shtml
+AddType text/html .html
 AddOutputFilter INCLUDES .shtml
 AddDefaultCharset utf-8
 ErrorDocument 404 /404.html
