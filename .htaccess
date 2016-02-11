@@ -1,7 +1,7 @@
 RewriteBase /
-Options +Includes
 AddType text/html .shtml
 AddType text/html .html
-AddOutputFilter INCLUDES .shtml
 AddDefaultCharset utf-8
 ErrorDocument 404 /404.html
+RemoveHandler cgi-script .pl .py .cgi
+RemoveHandler php-cgi .php .html
