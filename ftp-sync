@@ -71,7 +71,7 @@ foreach my $l (@lines) {
 	my ($mtime,$mtime_res) = &decode_time ($f[5], $f[6], $f[7]);
 
 	my $full = "$dir/$filename";
-	$full =~ s{^./+}{};
+	$full =~ s{^\./+}{};
 	$files{$full} = [$size,$mtime,$mtime_res];
 	print STDERR "Have $full\n";
     }
