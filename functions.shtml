@@ -63,8 +63,8 @@
     <div id="main">
       <div class="generalitem">
 	<h2><span class="gnumeric-bullet"></span>Gnumeric Sheet Functions</h2>
-	<p>Gnumeric currently has 607 functions for use in spreadsheets.
-      214 of these are unique to Gnumeric.</p>
+	<p>Gnumeric currently has 621 functions for use in spreadsheets.
+      221 of these are unique to Gnumeric.</p>
 <h2>Bitwise Operations</h2>
 <div class="functiongroup"><table class="functiongroup">
 <tr class="header"><td>Function</td><td>Implementation</td><td>Testing</td></tr>
@@ -105,7 +105,7 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMABS">imabs</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imabs implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imabs testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imabs testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMAGINARY">imaginary</a></td>
@@ -115,67 +115,67 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMARCCOS">imarccos</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarccos implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarccos testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarccos testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMARCCOSH">imarccosh</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarccosh implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarccosh testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarccosh testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMARCCOT">imarccot</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarccot implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarccot testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarccot testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMARCCOTH">imarccoth</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarccoth implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarccoth testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarccoth testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMARCCSC">imarccsc</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarccsc implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarccsc testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarccsc testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMARCCSCH">imarccsch</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarccsch implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarccsch testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarccsch testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMARCSEC">imarcsec</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarcsec implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarcsec testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarcsec testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMARCSECH">imarcsech</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarcsech implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarcsech testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarcsech testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMARCSIN">imarcsin</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarcsin implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarcsin testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarcsin testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMARCSINH">imarcsinh</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarcsinh implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarcsinh testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarcsinh testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMARCTAN">imarctan</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarctan implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarctan testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarctan testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMARCTANH">imarctanh</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarctanh implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarctanh testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imarctanh testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMARGUMENT">imargument</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imargument implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imargument testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imargument testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMCONJUGATE">imconjugate</a></td>
@@ -185,32 +185,32 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMCOS">imcos</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imcos implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imcos testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imcos testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMCOSH">imcosh</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imcosh implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imcosh testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imcosh testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMCOT">imcot</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imcot implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imcot testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imcot testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMCOTH">imcoth</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imcoth implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imcoth testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imcoth testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMCSC">imcsc</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imcsc implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imcsc testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imcsc testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMCSCH">imcsch</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imcsch implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imcsch testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imcsch testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMDIV">imdiv</a></td>
@@ -220,7 +220,7 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMEXP">imexp</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imexp implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imexp testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imexp testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMFACT">imfact</a></td>
@@ -245,17 +245,17 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMLN">imln</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imln implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imln testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imln testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMLOG10">imlog10</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imlog10 implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imlog10 testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imlog10 testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMLOG2">imlog2</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imlog2 implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imlog2 testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imlog2 testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMNEG">imneg</a></td>
@@ -265,7 +265,7 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMPOWER">impower</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: impower implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: impower testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: impower testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMPRODUCT">improduct</a></td>
@@ -280,27 +280,27 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMSEC">imsec</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imsec implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imsec testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imsec testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMSECH">imsech</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imsech implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imsech testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imsech testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMSIN">imsin</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imsin implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imsin testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imsin testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMSINH">imsinh</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imsinh implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imsinh testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imsinh testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMSQRT">imsqrt</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imsqrt implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imsqrt testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imsqrt testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMSUB">imsub</a></td>
@@ -315,12 +315,12 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMTAN">imtan</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imtan implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imtan testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imtan testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-IMTANH">imtanh</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imtanh implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imtanh testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: imtanh testing">Exhaustive</a></td>
 </tr>
 </table></div>
 <h2>Database</h2>
@@ -1513,6 +1513,11 @@
 <td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: acoth testing">No Testsuite</a></td>
 </tr>
 <tr class="function">
+<td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-AGM">agm</a></td>
+<td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: agm implementation">Unique to Gnumeric</a></td>
+<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: agm testing">No Testsuite</a></td>
+</tr>
+<tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-ARABIC">arabic</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: arabic implementation">Complete</a></td>
 <td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: arabic testing">No Testsuite</a></td>
@@ -1606,6 +1611,11 @@
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-COTH">coth</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: coth implementation">Complete</a></td>
 <td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: coth testing">No Testsuite</a></td>
+</tr>
+<tr class="function">
+<td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-COTPI">cotpi</a></td>
+<td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: cotpi implementation">Complete</a></td>
+<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: cotpi testing">No Testsuite</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-COUNTIF">countif</a></td>
@@ -1938,6 +1948,11 @@
 <td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: tanh testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
+<td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-TANPI">tanpi</a></td>
+<td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: tanpi implementation">Complete</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: tanpi testing">Exhaustive</a></td>
+</tr>
+<tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-TRUNC">trunc</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: trunc implementation">Complete</a></td>
 <td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: trunc testing">Basic</a></td>
@@ -2245,6 +2260,11 @@
 <td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: confidence testing">Basic</a></td>
 </tr>
 <tr class="function">
+<td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-CONFIDENCE.T">confidence.t</a></td>
+<td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: confidence.t implementation">Complete</a></td>
+<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: confidence.t testing">No Testsuite</a></td>
+</tr>
+<tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-CORREL">correl</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: correl implementation">Complete</a></td>
 <td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: correl testing">Basic</a></td>
@@ -2475,6 +2495,11 @@
 <td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: mode testing">Basic</a></td>
 </tr>
 <tr class="function">
+<td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-MODE.MULT">mode.mult</a></td>
+<td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: mode.mult implementation">Complete</a></td>
+<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: mode.mult testing">No Testsuite</a></td>
+</tr>
+<tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-NEGBINOMDIST">negbinomdist</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: negbinomdist implementation">Complete</a></td>
 <td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: negbinomdist testing">Basic</a></td>
@@ -2520,9 +2545,19 @@
 <td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: percentile testing">Basic</a></td>
 </tr>
 <tr class="function">
+<td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-PERCENTILE.EXC">percentile.exc</a></td>
+<td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: percentile.exc implementation">Complete</a></td>
+<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: percentile.exc testing">No Testsuite</a></td>
+</tr>
+<tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-PERCENTRANK">percentrank</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: percentrank implementation">Complete</a></td>
 <td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: percentrank testing">Basic</a></td>
+</tr>
+<tr class="function">
+<td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-PERCENTRANK.EXC">percentrank.exc</a></td>
+<td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: percentrank.exc implementation">Complete</a></td>
+<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: percentrank.exc testing">No Testsuite</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-PERMUT">permut</a></td>
@@ -2548,6 +2583,11 @@
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-QUARTILE">quartile</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: quartile implementation">Complete</a></td>
 <td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: quartile testing">Basic</a></td>
+</tr>
+<tr class="function">
+<td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-QUARTILE.EXC">quartile.exc</a></td>
+<td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: quartile.exc implementation">Complete</a></td>
+<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: quartile.exc testing">No Testsuite</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.DBETA">r.dbeta</a></td>
@@ -2590,6 +2630,11 @@
 <td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dgeom testing">No Testsuite</a></td>
 </tr>
 <tr class="function">
+<td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.DGUMBEL">r.dgumbel</a></td>
+<td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dgumbel implementation">Unique to Gnumeric</a></td>
+<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dgumbel testing">No Testsuite</a></td>
+</tr>
+<tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.DHYPER">r.dhyper</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dhyper implementation">Unique to Gnumeric</a></td>
 <td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dhyper testing">No Testsuite</a></td>
@@ -2613,6 +2658,11 @@
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.DPOIS">r.dpois</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dpois implementation">Unique to Gnumeric</a></td>
 <td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dpois testing">No Testsuite</a></td>
+</tr>
+<tr class="function">
+<td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.DRAYLEIGH">r.drayleigh</a></td>
+<td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.drayleigh implementation">Unique to Gnumeric</a></td>
+<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.drayleigh testing">No Testsuite</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.DSNORM">r.dsnorm</a></td>
@@ -2675,6 +2725,11 @@
 <td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pgeom testing">No Testsuite</a></td>
 </tr>
 <tr class="function">
+<td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.PGUMBEL">r.pgumbel</a></td>
+<td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pgumbel implementation">Unique to Gnumeric</a></td>
+<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pgumbel testing">No Testsuite</a></td>
+</tr>
+<tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.PHYPER">r.phyper</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.phyper implementation">Unique to Gnumeric</a></td>
 <td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.phyper testing">No Testsuite</a></td>
@@ -2698,6 +2753,11 @@
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.PPOIS">r.ppois</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.ppois implementation">Unique to Gnumeric</a></td>
 <td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.ppois testing">No Testsuite</a></td>
+</tr>
+<tr class="function">
+<td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.PRAYLEIGH">r.prayleigh</a></td>
+<td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.prayleigh implementation">Unique to Gnumeric</a></td>
+<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.prayleigh testing">No Testsuite</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.PSNORM">r.psnorm</a></td>
@@ -2765,6 +2825,11 @@
 <td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qgeom testing">No Testsuite</a></td>
 </tr>
 <tr class="function">
+<td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.QGUMBEL">r.qgumbel</a></td>
+<td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qgumbel implementation">Unique to Gnumeric</a></td>
+<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qgumbel testing">No Testsuite</a></td>
+</tr>
+<tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.QHYPER">r.qhyper</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qhyper implementation">Unique to Gnumeric</a></td>
 <td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qhyper testing">No Testsuite</a></td>
@@ -2788,6 +2853,11 @@
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.QPOIS">r.qpois</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qpois implementation">Unique to Gnumeric</a></td>
 <td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qpois testing">No Testsuite</a></td>
+</tr>
+<tr class="function">
+<td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.QRAYLEIGH">r.qrayleigh</a></td>
+<td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qrayleigh implementation">Unique to Gnumeric</a></td>
+<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qrayleigh testing">No Testsuite</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.QSNORM">r.qsnorm</a></td>
