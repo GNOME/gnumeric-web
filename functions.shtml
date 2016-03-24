@@ -1515,7 +1515,7 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-AGM">agm</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: agm implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: agm testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: agm testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-ARABIC">arabic</a></td>
@@ -1555,7 +1555,7 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-BETA">beta</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: beta implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: beta testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: beta testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-BETALN">betaln</a></td>
@@ -1580,7 +1580,7 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-COMBIN">combin</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: combin implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: combin testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: combin testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-COMBINA">combina</a></td>
@@ -1665,7 +1665,7 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-FACTDOUBLE">factdouble</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: factdouble implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: factdouble testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: factdouble testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-FIB">fib</a></td>
@@ -1810,7 +1810,7 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-POCHHAMMER">pochhammer</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: pochhammer implementation">Unique to Gnumeric</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: pochhammer testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: pochhammer testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-POWER">power</a></td>
@@ -1890,7 +1890,7 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-SQRT">sqrt</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: sqrt implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: sqrt testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: sqrt testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-SQRTPI">sqrtpi</a></td>
@@ -1974,22 +1974,22 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-NT_D">nt_d</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: nt_d implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: nt_d testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: nt_d testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-NT_MU">nt_mu</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: nt_mu implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: nt_mu testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: nt_mu testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-NT_OMEGA">nt_omega</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: nt_omega implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: nt_omega testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: nt_omega testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-NT_PHI">nt_phi</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: nt_phi implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: nt_phi testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: nt_phi testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-NT_PI">nt_pi</a></td>
@@ -1999,7 +1999,7 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-NT_SIGMA">nt_sigma</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: nt_sigma implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: nt_sigma testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: nt_sigma testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-PFACTOR">pfactor</a></td>
@@ -2527,7 +2527,7 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-OWENT">owent</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: owent implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: owent testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: owent testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-PARETO">pareto</a></td>
