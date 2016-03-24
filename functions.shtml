@@ -2013,47 +2013,47 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RAND">rand</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: rand implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: rand testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: rand testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDBERNOULLI">randbernoulli</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randbernoulli implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randbernoulli testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randbernoulli testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDBETA">randbeta</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randbeta implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randbeta testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randbeta testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDBETWEEN">randbetween</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randbetween implementation">Complete</a></td>
-<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randbetween testing">Basic</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randbetween testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDBINOM">randbinom</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randbinom implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randbinom testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randbinom testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDCAUCHY">randcauchy</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randcauchy implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randcauchy testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randcauchy testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDCHISQ">randchisq</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randchisq implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randchisq testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randchisq testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDDISCRETE">randdiscrete</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randdiscrete implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randdiscrete testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randdiscrete testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDEXP">randexp</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randexp implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randexp testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randexp testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDEXPPOW">randexppow</a></td>
@@ -2063,17 +2063,17 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDFDIST">randfdist</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randfdist implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randfdist testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randfdist testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDGAMMA">randgamma</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randgamma implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randgamma testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randgamma testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDGEOM">randgeom</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randgeom implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randgeom testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randgeom testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDGUMBEL">randgumbel</a></td>
@@ -2083,7 +2083,7 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDHYPERG">randhyperg</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randhyperg implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randhyperg testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randhyperg testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDLANDAU">randlandau</a></td>
@@ -2103,7 +2103,7 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDLOG">randlog</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randlog implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randlog testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randlog testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDLOGISTIC">randlogistic</a></td>
@@ -2113,17 +2113,17 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDLOGNORM">randlognorm</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randlognorm implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randlognorm testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randlognorm testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDNEGBINOM">randnegbinom</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randnegbinom implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randnegbinom testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randnegbinom testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDNORM">randnorm</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randnorm implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randnorm testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randnorm testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDNORMTAIL">randnormtail</a></td>
@@ -2138,12 +2138,12 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDPOISSON">randpoisson</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randpoisson implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randpoisson testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randpoisson testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDRAYLEIGH">randrayleigh</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randrayleigh implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randrayleigh testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randrayleigh testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDRAYLEIGHTAIL">randrayleightail</a></td>
@@ -2153,7 +2153,7 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDSNORM">randsnorm</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randsnorm implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randsnorm testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randsnorm testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDSTDIST">randstdist</a></td>
@@ -2163,17 +2163,17 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDTDIST">randtdist</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randtdist implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randtdist testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randtdist testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDUNIFORM">randuniform</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randuniform implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randuniform testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randuniform testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANDWEIBULL">randweibull</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randweibull implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randweibull testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: randweibull testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-SIMTABLE">simtable</a></td>
