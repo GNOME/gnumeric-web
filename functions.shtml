@@ -2592,37 +2592,37 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.DBETA">r.dbeta</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dbeta implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dbeta testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dbeta testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.DBINOM">r.dbinom</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dbinom implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dbinom testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dbinom testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.DCAUCHY">r.dcauchy</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dcauchy implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dcauchy testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dcauchy testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.DCHISQ">r.dchisq</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dchisq implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dchisq testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dchisq testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.DEXP">r.dexp</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dexp implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dexp testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dexp testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.DF">r.df</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.df implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.df testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.df testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.DGAMMA">r.dgamma</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dgamma implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dgamma testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dgamma testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.DGEOM">r.dgeom</a></td>
@@ -2637,27 +2637,27 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.DHYPER">r.dhyper</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dhyper implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dhyper testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dhyper testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.DLNORM">r.dlnorm</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dlnorm implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dlnorm testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dlnorm testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.DNBINOM">r.dnbinom</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dnbinom implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dnbinom testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dnbinom testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.DNORM">r.dnorm</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dnorm implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dnorm testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dnorm testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.DPOIS">r.dpois</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dpois implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dpois testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dpois testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.DRAYLEIGH">r.drayleigh</a></td>
@@ -2677,52 +2677,52 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.DT">r.dt</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dt implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dt testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dt testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.DWEIBULL">r.dweibull</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dweibull implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dweibull testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.dweibull testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.PBETA">r.pbeta</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pbeta implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pbeta testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pbeta testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.PBINOM">r.pbinom</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pbinom implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pbinom testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pbinom testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.PCAUCHY">r.pcauchy</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pcauchy implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pcauchy testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pcauchy testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.PCHISQ">r.pchisq</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pchisq implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pchisq testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pchisq testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.PEXP">r.pexp</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pexp implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pexp testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pexp testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.PF">r.pf</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pf implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pf testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pf testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.PGAMMA">r.pgamma</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pgamma implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pgamma testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pgamma testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.PGEOM">r.pgeom</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pgeom implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pgeom testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pgeom testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.PGUMBEL">r.pgumbel</a></td>
@@ -2732,27 +2732,27 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.PHYPER">r.phyper</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.phyper implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.phyper testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.phyper testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.PLNORM">r.plnorm</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.plnorm implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.plnorm testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.plnorm testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.PNBINOM">r.pnbinom</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pnbinom implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pnbinom testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pnbinom testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.PNORM">r.pnorm</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pnorm implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pnorm testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pnorm testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.PPOIS">r.ppois</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.ppois implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.ppois testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.ppois testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.PRAYLEIGH">r.prayleigh</a></td>
@@ -2772,7 +2772,7 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.PT">r.pt</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pt implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pt testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pt testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.PTUKEY">r.ptukey</a></td>
@@ -2782,12 +2782,12 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.PWEIBULL">r.pweibull</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pweibull implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pweibull testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.pweibull testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.QBETA">r.qbeta</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qbeta implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qbeta testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qbeta testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.QBINOM">r.qbinom</a></td>
@@ -2797,27 +2797,27 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.QCAUCHY">r.qcauchy</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qcauchy implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qcauchy testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qcauchy testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.QCHISQ">r.qchisq</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qchisq implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qchisq testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qchisq testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.QEXP">r.qexp</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qexp implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qexp testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qexp testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.QF">r.qf</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qf implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qf testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qf testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.QGAMMA">r.qgamma</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qgamma implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qgamma testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qgamma testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.QGEOM">r.qgeom</a></td>
@@ -2837,7 +2837,7 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.QLNORM">r.qlnorm</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qlnorm implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qlnorm testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qlnorm testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.QNBINOM">r.qnbinom</a></td>
@@ -2847,7 +2847,7 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.QNORM">r.qnorm</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qnorm implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qnorm testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qnorm testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.QPOIS">r.qpois</a></td>
@@ -2872,7 +2872,7 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.QT">r.qt</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qt implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qt testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qt testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.QTUKEY">r.qtukey</a></td>
@@ -2882,7 +2882,7 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-R.QWEIBULL">r.qweibull</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qweibull implementation">Unique to Gnumeric</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qweibull testing">No Testsuite</a></td>
+<td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: r.qweibull testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-RANK">rank</a></td>
