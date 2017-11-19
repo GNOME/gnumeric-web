@@ -1560,12 +1560,12 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-AVERAGEIF">averageif</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: averageif implementation">Complete</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: averageif testing">No Testsuite</a></td>
+<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: averageif testing">Basic</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-AVERAGEIFS">averageifs</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: averageifs implementation">Complete</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: averageifs testing">No Testsuite</a></td>
+<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: averageifs testing">Basic</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-BETA">beta</a></td>
@@ -1640,7 +1640,7 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-COUNTIFS">countifs</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: countifs implementation">Complete</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: countifs testing">No Testsuite</a></td>
+<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: countifs testing">Basic</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-CSC">csc</a></td>
@@ -1775,7 +1775,7 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-MAXIFS">maxifs</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: maxifs implementation">Complete</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: maxifs testing">No Testsuite</a></td>
+<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: maxifs testing">Basic</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-MDETERM">mdeterm</a></td>
@@ -1785,7 +1785,7 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-MINIFS">minifs</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: minifs implementation">Complete</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: minifs testing">No Testsuite</a></td>
+<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: minifs testing">Basic</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-MINVERSE">minverse</a></td>
@@ -1950,7 +1950,7 @@
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-SUMIFS">sumifs</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: sumifs implementation">Complete</a></td>
-<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: sumifs testing">No Testsuite</a></td>
+<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: sumifs testing">Basic</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-SUMPRODUCT">sumproduct</a></td>
