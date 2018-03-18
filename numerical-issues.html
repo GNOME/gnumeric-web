@@ -123,13 +123,14 @@
 	<p>Microsoft Excel uses the same number system as Gnumeric,
 	but Microsoft Excel does some operations differently.</p>
 
-	<p>If the top-level is a subtraction and the result of the
-	subtraction is very close to zero compared to the two
-	arguments, then the result will be rounded to zero.  This
-	operation, called <em>snap-to-zero</em> is also performed for
-	addition and the subtraction implied by comparisons.  Is is
-	not performed for operations deeper in an expression, not even
-	for subtractions surrounded by nothing but parentheses.</p>
+	<p>If the top-level operand of an expression is a subtraction
+	and the result of the subtraction is very close to zero
+	compared to the two arguments, then the result will be rounded
+	to zero.  This operation, called <em>snap-to-zero</em>, is
+	also performed for addition and the subtraction implied by
+	comparisons.  Is is not performed for operations deeper in an
+	expression, not even for subtractions surrounded by nothing
+	but parentheses.</p>
 
 	<p>Snap-to-zero has the effect of hiding the small rounding
 	errors that arise by the representation error on 0.01.  That
