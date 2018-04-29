@@ -6,6 +6,7 @@ use Time::Local;
 
 my $manifestfile = $ARGV[0];
 my $secretfile = $ENV{'HOME'} . "/.www-gnumeric-org";
+my $time_offset = -7 * 3600;
 
 my @manifest;
 {
@@ -127,7 +128,6 @@ sub decode_time {
     my ($a,$b,$c) = @_;
 
     my ($sec,$min,$hour,$mday,$mon,$year);
-    my $dy = 1;
 
     my %months = ('jan' => 1,  'feb' => 2,  'mar' => 3,
 		  'apr' => 4,  'may' => 5,  'jun' => 6,
@@ -139,19 +139,19 @@ sub decode_time {
 
     if ($c =~ /^(\d+):(\d+)$/) {
 	$hour = $1;
-	$min = $1;
+	$min = $2;
 	$sec = 0;
-	$year = (localtime())[5];
-	$dy = 2;
+	$year = (localtime())[5] + 1900;
     } else {
 	$hour = $min = $sec = 0;
 	$year = $c;
     }
 
     for (my $dy = 0; $dy < 2; $dy++) {
-	my $t = timelocal ($sec,$min,$hour,$mday,$mon,$year);
-	return ($t, 60) if ($t <= time);
-	$year--;
+	 my $t = timelocal ($sec,$min,$hour,$mday,$mon,$year) + $time_offset;
+	 # print STDERR "[$sec,$min,$hour,$mday,$mon,$year,$t]\n";
+	 return ($t, 60) if ($t <= time);
+	 $year--;
     }
 
     return (undef, undef);
