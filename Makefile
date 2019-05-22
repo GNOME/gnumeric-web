@@ -290,6 +290,7 @@ WWWFILES =						\
 	announcements/1.12/gnumeric-1.12.42.html	\
 	announcements/1.12/gnumeric-1.12.43.html	\
 	announcements/1.12/gnumeric-1.12.44.html	\
+	announcements/1.12/gnumeric-1.12.45.html	\
 							\
 	style/date.png					\
 	style/gnumeric52.png				\
