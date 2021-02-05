@@ -61,7 +61,7 @@
 	  between representable numbers is much smaller for numbers
 	  close to zero than it is for large numbers.</li>
 	  <li>All integers up to about 10<sup>16</sup> can be
-	  accurately represented.  That is the good news.</li>
+	  precisely represented.  That is the good news.</li>
 	  <li><strong>The numbers 0.1, 0.01, ... cannot be precisely
 	  represented.</strong>  This is for the same reason that a
 	  desk calculator cannot precisely represent 1/3 but uses
@@ -91,7 +91,7 @@
 
 	<p>For example, for the division 1/10 where the arguments ("1"
 	and "10") are both precisely representable, we calculate the
-	mathematical value one-tenth are round that into the nearest
+	mathematical value one-tenth and round that into the nearest
 	representable value which happens to be exactly
 	0.1000000000000000000013552527156068805425093160010874271392822265625.
 	That value clearly is a tiny bit bigger than one tenth in the
@@ -102,7 +102,7 @@
 	example, one does not get zero as one might have hoped for.
 	Each individual sub-result is subject to rounding to
 	representable values, so we are really computing
-	r(r(0.3)-r(r(3)-r(0.1))) where "r" is the rounding operation.
+	r(r(0.3)-r(r(3)*r(0.1))) where "r" is the rounding operation.
 	The end result is about -6*10<sup>-17</sup>.  That is an
 	unpleasant result of working with finite-precision math.</p>
 
@@ -145,7 +145,7 @@
 	    when they are not.</li>
 	  <li>It becomes possible to have three numbers A1, A2, and
 	    A3, where A1=A2 and A2=A3, but A1&lt;&gt;A3.</li>
-	  <li>It is possible for A1-5005=0 to be zero, but
+	  <li>It is possible for A1-5005=0 and at the same time
 	    A1-5004-1&lt;&gt;0.</li>
 	  <li>It is possible to have A1=A2, but (say)
 	    TAN(A1)&lt;&gt;TAN(A2).</li>
@@ -170,7 +170,8 @@
 	<p>The lack of an honest subtraction operation makes it hard
 	to even test the accuracy of sheet-level functions.
 	LibreOffice and OpenOffice will claim that a result matches a
-	reference value even when they do not.</p>
+	  reference value even when they do not.  (Update: LibreOffice
+	nowadays has a function that allows raw subtraction.)</p>
       </div>
       <div class="generalitem">
 	<h2><span class="gnumeric-bullet"></span>Alternate Number Systems</h2>
