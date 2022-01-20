@@ -64,33 +64,33 @@
       <div class="generalitem">
 	<h2><span class="gnumeric-bullet"></span>Gnumeric Sheet Functions</h2>
 	<p>Gnumeric currently has 637 functions for use in spreadsheets.
-      227 of these are unique to Gnumeric.</p>
+      232 of these are unique to Gnumeric.</p>
 <h2>Bitwise Operations</h2>
 <div class="functiongroup"><table class="functiongroup">
 <tr class="header"><td>Function</td><td>Implementation</td><td>Testing</td></tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-BITAND">bitand</a></td>
-<td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: bitand implementation">Complete</a></td>
+<td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: bitand implementation">Unique to Gnumeric</a></td>
 <td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: bitand testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-BITLSHIFT">bitlshift</a></td>
-<td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: bitlshift implementation">Complete</a></td>
+<td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: bitlshift implementation">Unique to Gnumeric</a></td>
 <td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: bitlshift testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-BITOR">bitor</a></td>
-<td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: bitor implementation">Complete</a></td>
+<td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: bitor implementation">Unique to Gnumeric</a></td>
 <td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: bitor testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-BITRSHIFT">bitrshift</a></td>
-<td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: bitrshift implementation">Complete</a></td>
+<td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: bitrshift implementation">Unique to Gnumeric</a></td>
 <td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: bitrshift testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-BITXOR">bitxor</a></td>
-<td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: bitxor implementation">Complete</a></td>
+<td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: bitxor implementation">Unique to Gnumeric</a></td>
 <td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: bitxor testing">Exhaustive</a></td>
 </tr>
 </table></div>
