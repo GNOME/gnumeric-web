@@ -63,8 +63,8 @@
     <div id="main">
       <div class="generalitem">
 	<h2><span class="gnumeric-bullet"></span>Gnumeric Sheet Functions</h2>
-	<p>Gnumeric currently has 631 functions for use in spreadsheets.
-      222 of these are unique to Gnumeric.</p>
+	<p>Gnumeric currently has 637 functions for use in spreadsheets.
+      227 of these are unique to Gnumeric.</p>
 <h2>Bitwise Operations</h2>
 <div class="functiongroup"><table class="functiongroup">
 <tr class="header"><td>Function</td><td>Implementation</td><td>Testing</td></tr>
@@ -1658,6 +1658,11 @@
 <td class="testing-exhaustive"><a href="mailto:gnumeric-list@gnome.org?subject=Re: degrees testing">Exhaustive</a></td>
 </tr>
 <tr class="function">
+<td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-DIGAMMA">digamma</a></td>
+<td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: digamma implementation">Unique to Gnumeric</a></td>
+<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: digamma testing">Basic</a></td>
+</tr>
+<tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-EIGEN">eigen</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: eigen implementation">Unique to Gnumeric</a></td>
 <td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: eigen testing">No Testsuite</a></td>
@@ -1733,9 +1738,19 @@
 <td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: igamma testing">No Testsuite</a></td>
 </tr>
 <tr class="function">
+<td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-ILOG">ilog</a></td>
+<td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: ilog implementation">Unique to Gnumeric</a></td>
+<td class="testing-nosuite"><a href="mailto:gnumeric-list@gnome.org?subject=Re: ilog testing">No Testsuite</a></td>
+</tr>
+<tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-INT">int</a></td>
 <td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: int implementation">Complete</a></td>
 <td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: int testing">Basic</a></td>
+</tr>
+<tr class="function">
+<td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-LAMBERTW">lambertw</a></td>
+<td class="imp-complete"><a href="mailto:gnumeric-list@gnome.org?subject=Re: lambertw implementation">Complete</a></td>
+<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: lambertw testing">Basic</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-LCM">lcm</a></td>
@@ -2035,6 +2050,11 @@
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-NT_PI">nt_pi</a></td>
 <td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: nt_pi implementation">Unique to Gnumeric</a></td>
 <td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: nt_pi testing">Basic</a></td>
+</tr>
+<tr class="function">
+<td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-NT_RADICAL">nt_radical</a></td>
+<td class="imp-gnumeric"><a href="mailto:gnumeric-list@gnome.org?subject=Re: nt_radical implementation">Unique to Gnumeric</a></td>
+<td class="testing-basic"><a href="mailto:gnumeric-list@gnome.org?subject=Re: nt_radical testing">Basic</a></td>
 </tr>
 <tr class="function">
 <td><a href ="https://help.gnome.org/users/gnumeric/stable/gnumeric.html#gnumeric-function-NT_SIGMA">nt_sigma</a></td>
