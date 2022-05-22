@@ -161,6 +161,10 @@ h2 {
 	padding: 7px 20px;
 }
 
+#main ol, #fullmain ol {
+	padding: 7px 20px;
+}
+
 #main li, #fullmain li {
 	padding: 2px 10px;
 }

@@ -32,12 +32,16 @@
 a locale.  We do that using translations of a handful of strings like "*Long
 Date Format" and "*Short Time Format".  These strings should be translated to
 Excel format codes representing the right format.  If that makes no sense to
-you, drop by the #Gnumeric IRC channel on irc.gnome.org and ask.</p>
+you, drop a line on the mailing list and we'll help out.</p>
 <p>Most of these have reasonable defaults if you do not translate them or 
 translate them to the empty string.  In fact, if the default works fine, please
-translate to an empty string.  You can try out a given format in Gnumeric:
-(1)&nbsp;Enter "1-Feb-2009" into cell A1.  (2)&nbsp;Select A1.  (3)&nbsp;Press
-Ctrl-1.  (4)&nbsp;Select "Custom" and enter the format you wish to try.</p>
+  translate to an empty string.  You can try out a given format in Gnumeric:</p>
+<ol>
+  <li>Enter "1-Feb-2009" into cell A1.</li>
+  <li>Select A1.</li>
+  <li>Press Ctrl-1.</li>
+  <li>Select "Custom" and enter the format you wish to try.</li>
+</ol>
 <p>Wikipedia has a good overview of <a
 href="http://en.wikipedia.org/wiki/Date_and_time_notation_by_country">date and
 time formats by country</a>.</p>
