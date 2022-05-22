@@ -135,6 +135,7 @@ body {
 h2 {
     font: bold 20pt 'Trebuchet MS', 'Helvetica Neue', Arial, Sans-serif;
     color: #115280;
+    padding-top: 20px;
     margin-left: -62px;
 }
 
