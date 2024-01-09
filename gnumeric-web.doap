@@ -8,8 +8,8 @@
   <shortdesc xml:lang="en">The Website for Gnumeric</shortdesc>
   <description>The Website for Gnumeric</description>
   <homepage rdf:resource="http://www.gnumeric.org/" />
-  <mailing-list rdf:resource="http://mail.gnome.org/mailman/listinfo/gnumeric-list" />
-  <download-page rdf:resource="http://download.gnome.org/sources/gnumeric/" />
+  <support-forum rdf:resource="https://discourse.gnome.org/tag/gnumeric" />
+  <download-page rdf:resource="https://download.gnome.org/sources/gnumeric/" />
   <bug-database rdf:resource="https://gitlab.gnome.org/GNOME/gnumeric/issues" />
 
   <category rdf:resource="http://api.gnome.org/doap-extensions#infrastructure" />
