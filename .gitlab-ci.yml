@@ -1,0 +1,9 @@
+pages:
+  stage: deploy
+  script:
+  - make gnome-pages
+  artifacts:
+    paths:
+    - public
+  only:
+  - master

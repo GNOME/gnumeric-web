@@ -318,3 +318,7 @@ manifest: Makefile
 do-sync: ftp-sync manifest $(WWWFILES)
 	./ftp-sync manifest
 	git status --untracked-files=no
+
+gnome-pages:
+	mkdir public
+	cp -p $(WWWFILES) public/.
