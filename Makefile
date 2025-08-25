@@ -321,4 +321,5 @@ do-sync: ftp-sync manifest $(WWWFILES)
 
 gnome-pages:
 	mkdir public
-	tar cf - $(WWWFILES) | (cd public && tar xf -)
+	tar cf - $(WWWFILES) | tar xf - -C public
+	(cd public && perl ../makerel $(WWWFILES))
