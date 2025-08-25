@@ -1,5 +1,10 @@
+image: ubuntu
+
 pages:
   stage: deploy
+  before_script:
+    - DEBIAN_FRONTEND=noninteractive apt update
+    - DEBIAN_FRONTEND=noninteractive apt -y make
   script:
   - make gnome-pages
   artifacts:
