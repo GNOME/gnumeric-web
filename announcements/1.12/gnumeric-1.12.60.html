@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- MARKER: start-header -->
+<head>
+<title>Gnumeric</title>
+<link rel="stylesheet" href="/style/style.css" type="text/css" />
+<link rel="icon" type="image/png" href="/logo.png" />
+</head>
+<body>
+<div id="wrap">
+  <a href="/"><div id="header">
+    <h1 id="logo-text"><span>Gnumeric</span></h1>
+    <p id="slogan">Free, Fast, Accurate &mdash; Pick Any Three!</p>
+    <img id="logo" src="/gnumeric.png" alt="logo" class="float-right"/>
+    </div></a>
+
+  <div id="nav">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/development.html">Development</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <div id="content-wrap">
+    <!-- MARKER: start-main -->
+    <div id="fullmain">
+      <div class="generalitem">
+        <h2><span class="gnumeric-bullet"></span>Gnumeric 1.12.60 aka &quot;TBD&quot; is now available.</h2>
+        <p>The Gnumeric Team is pleased to announce the availability of
+        Gnumeric version 1.12.60.</p>
+        <p>Noteworthy news in this release:</p>
+        <ul>
+        <li>Improve gui experience on high-dpi display (where "high"
+        really just means significantly different from 90, so not a
+          high bar)</li>
+	<li>A year's worth of accumulated bug fixes.</li>
+        </ul>
+
+        <p>Details of changes by contributor:</p>
+        <ul>
+        <li>Morten
+          <ul>
+	    <li>
+	      Fix problem with whole-column references in ods.  [<a href="https://gitlab.gnome.org/GNOME/gnumeric/issues/797">Bug 797</a>].
+	    </li>
+	    <li>
+	      ODS Export and import of marker fill and outline opacity.  [<a href="https://gitlab.gnome.org/GNOME/gnumeric/issues/796">Bug 796</a>].
+	    </li>
+	    <li>
+	      ODS Export and import of graph line stroke opacity.  [<a href="https://gitlab.gnome.org/GNOME/gnumeric/issues/796">Bug 796</a>].
+	    </li>
+	    <li>
+	      Fix XLSX import for files lacking cell addresses.  [<a href="https://gitlab.gnome.org/GNOME/gnumeric/issues/804">Bug 804</a>].
+	    </li>
+	    <li>
+	      GUI improvement when saving file loaded from cvs.  [<a href="https://gitlab.gnome.org/GNOME/gnumeric/issues/817">Bug 817</a>].
+	    </li>
+	    <li>
+	      Improve LOG with base argument.
+	    </li>
+	    <li>
+	      Doc system improvements.  [<a href="https://gitlab.gnome.org/GNOME/gnumeric/issues/823">Bug 823</a>].
+	    </li>
+	    <li>
+	      Fix GEOMEAN problem.  [<a href="https://gitlab.gnome.org/GNOME/gnumeric/issues/829">Bug 829</a>].
+	    </li>
+	    <li>
+	      Fix dialog accel collision.  [<a href="https://gitlab.gnome.org/GNOME/gnumeric/issues/830">Bug 830</a>].
+	    </li>
+	    <li>
+	      Introspection improvements.
+	    </li>
+	    <li>
+	      Named expression fixes.  [<a href="https://gitlab.gnome.org/GNOME/gnumeric/issues/833">Bug 833</a>].
+	    </li>
+	    <li>
+	      Speed up large-range copies.  [<a href="https://gitlab.gnome.org/GNOME/gnumeric/issues/836">Bug 836</a>].
+	    </li>
+	    <li>
+	      Add missing undo/redo for sheet display options.
+	    </li>
+	    <li>
+	      Style the progress bar we use for menu tooltips.
+	    </li>
+	    <li>
+	      Clean out old references to mailing list and irc.
+	    </li>
+	    <li>
+	      Documentation updates.
+	    </li>
+	    <li>
+	      Print using pango context from GtkPrintContext for constistency
+	      between gui and non-gui.
+	    </li>
+	    <li>
+	      GUI files relating to cell sizes.
+	    </li>
+	    <li>
+	      Fix rare undo problem.
+	    </li>
+	    <li>
+	      Experiment with AI translation (+human editing) for the da.po files.
+	    </li>
+          </ul>
+        </li>
+        </ul>
+      </div>
+      <div class="generalitem">
+        <h2><span class="gnumeric-bullet"></span>goffice 0.10.60 aka &quot;TBD&quot; is now available.</h2>
+        <p>The Gnumeric Team is pleased to announce the availability of
+        goffice version 0.10.60.</p>
+
+        <p>Details of changes by contributor:</p>
+        <ul>
+        <li>Morten
+          <ul>
+	    <li>
+	      Fix fraction format problem.  [<a href="https://gitlab.gnome.org/GNOME/gnumeric/issues/803">Bug 803</a>].
+	    </li>
+	    <li>
+	      Doc fixes.
+	    </li>
+	    <li>
+	      Remove workaround for ancient gtk+ bug.  [<a href="https://gitlab.gnome.org/GNOME/goffice/issues/81">Bug 81</a>].
+	    </li>
+	    <li>
+	      I18N fix for format selector.
+	    </li>
+          </ul>
+        </li>
+        </ul>
+      </div>
+      <div class="generalitem">
+        <h2><span class="gnumeric-bullet"></span>Availability</h2>
+        <blockquote>
+          <p><a href="https://ftp.gnome.org/pub/GNOME/sources/gnumeric/1.12/">https://ftp.gnome.org/pub/GNOME/sources/gnumeric/1.12/</a></p><br>
+          <p><a href="https://ftp.gnome.org/pub/GNOME/sources/goffice/0.10/">https://ftp.gnome.org/pub/GNOME/sources/goffice/0.10/</a></p>
+        </blockquote>
+      </div>
+    </div>
+    <!-- MARKER: end-main -->
+    <!-- MARKER: start-sidebar -->
+    <!-- MARKER: end-sidebar -->
+  </div>
+</div>
+</body>
+</html>
