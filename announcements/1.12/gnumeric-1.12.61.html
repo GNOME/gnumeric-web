@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- MARKER: start-header -->
+<head>
+<title>Gnumeric</title>
+<link rel="stylesheet" href="/style/style.css" type="text/css" />
+<link rel="icon" type="image/png" href="/logo.png" />
+</head>
+<body>
+<div id="wrap">
+  <a href="/"><div id="header">
+    <h1 id="logo-text"><span>Gnumeric</span></h1>
+    <p id="slogan">Free, Fast, Accurate &mdash; Pick Any Three!</p>
+    <img id="logo" src="/gnumeric.png" alt="logo" class="float-right"/>
+    </div></a>
+
+  <div id="nav">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/development.html">Development</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <div id="content-wrap">
+    <!-- MARKER: start-main -->
+    <div id="fullmain">
+      <div class="generalitem">
+        <h2><span class="gnumeric-bullet"></span>Gnumeric 1.12.61 aka &quot;TBD&quot; is now available.</h2>
+        <p>The Gnumeric Team is pleased to announce the availability
+        of Gnumeric version 1.12.61.  This is a major bugfix release.
+        It requires the concurrently-released Goffice 0.10.60. Libgsf 1.14.58 is recommended.</p>
+        <p>Noteworthy news in this release:</p>
+        <ul>
+          <li>Audit of code by Gemini.</li>
+	  <li>Refactoring of analysis tools code.</li>
+	  <li>Test improvements.</li>
+        </ul>
+
+        <p>Details of changes by contributor:</p>
+        <ul>
+        <li>Morten
+          <ul>
+	    <li>
+	      Up gtk+ requirement to 3.20.  Still ancient.
+	    </li>
+	    <li>
+	      Audit code with Gemini AI.
+	    </li>
+	    <li>
+	      Plug leaks.
+	    </li>
+	    <li>
+	      Make tests run in parallel.
+	    </li>
+	    <li>
+	      Refactor analysis tools to be GObject-based.
+	    </li>
+	    <li>
+	      Fix sampling tool gui in the periodic case.
+	    </li>
+	    <li>
+	      Fix fill-series tool problems with dates.
+	    </li>
+	    <li>
+	      Fix chi-square tool problems with labels.
+	    </li>
+	    <li>
+	      Add basic testing of most analysis tools.
+	    </li>
+	    <li>
+	      Disable excelplugins (unrelated to xls/xlsx files).
+	    </li>
+	    <li>
+	      Fix gui crash [<a href="https://gitlab.gnome.org/GNOME/gnumeric/issues/857">Bug 857</a>].
+	    </li>
+	    <li>
+	      Introspection fixes.
+	    </li>
+	    <li>
+	      Test suite enhancements.
+	    </li>
+	    <li>
+	      Preserve cvs-to-cvs and cvs-to-txt line endings.
+	    </li>
+	    <li>
+	      Fix problems with search-and-replace.
+	    </li>
+	    <li>
+	      Fix crash involding document properties and undo/redo.
+	    </li>
+	    <li>
+	      Fix potential overflow in NT_SIGMA.
+	    </li>
+	    <li>
+	      Improve primality test for large numbers.
+	    </li>
+	    <li>
+	      Speed up number theory functions for values with a large
+	      prime factor.
+	    </li>
+	    <li>
+	      Fix TRIM to only cut spaces.
+	    </li>
+	    <li>
+	      Fix problems with OFFTRAF in extreme cases.
+	    </li>
+	    <li>
+	      Fix IFS semantics to match XL's as intended.
+	    </li>
+	    <li>
+	      New functions XLOOKUP and XMATCH.
+	    </li>
+	    <li>
+	      New functions TEXTBEFORE, TEXTAFTER, TEXTSPLIT.
+	    </li>
+	    <li>
+	      Improve xlsx importer's mapping of function names.
+	    </li>
+          </ul>
+        </li>
+        <li>Alex H
+          <ul>
+	    <li>
+	      Don't remove initial empty rows/columns for cvs/txt export.
+	    </li>
+          </ul>
+        </li>
+        <li>N. Copa
+          <ul>
+	    <li>
+	      Fix parallel build trouble.  [<a href="https://gitlab.gnome.org/GNOME/gnumeric/issues/852">Bug 852</a>].
+	    </li>
+          </ul>
+        </li>
+        </ul>
+      </div>
+      <div class="generalitem">
+        <h2><span class="gnumeric-bullet"></span>goffice 0.10.61 aka &quot;TBD&quot; is now available.</h2>
+        <p>The Gnumeric Team is pleased to announce the availability of
+        goffice version 0.10.61.  This is a bugfix release.</p>
+
+        <p>Details of changes by contributor:</p>
+        <ul>
+        <li>Morten
+          <ul>
+	    <li>
+	      Up gtk+ requirement to 3.20.  Still ancient.
+	    </li>
+	    <li>
+	      Fix regression error reporting problems.
+	    </li>
+	    <li>
+	      Introspection fixes.
+	    </li>
+	    <li>
+	      Import go_reduce_pi from Gnumeric.
+	    </li>
+	    <li>
+	      Test improvements.
+	    </li>
+	    <li>
+	      Plug leaks.
+	    </li>
+	    <li>
+	      Fix problems with go_string_new_len.
+	    </li>
+	    <li>
+	      Fix problem with arc canvas item.
+	    </li>
+	    <li>
+	      Fix various issued with text canvas item.
+	    </li>
+          </ul>
+        </li>
+        </ul>
+      </div>
+      <div class="generalitem">
+        <h2><span class="gnumeric-bullet"></span>Availability</h2>
+        <blockquote>
+          <p><a href="https://ftp.gnome.org/pub/GNOME/sources/gnumeric/1.12/">https://ftp.gnome.org/pub/GNOME/sources/gnumeric/1.12/</a></p>
+          <p><a href="https://ftp.gnome.org/pub/GNOME/sources/goffice/0.10/">https://ftp.gnome.org/pub/GNOME/sources/goffice/0.10/</a></p>
+        </blockquote>
+      </div>
+    </div>
+    <!-- MARKER: end-main -->
+    <!-- MARKER: start-sidebar -->
+    <!-- MARKER: end-sidebar -->
+  </div>
+</div>
+</body>
+</html>
