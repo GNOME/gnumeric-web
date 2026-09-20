@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- MARKER: start-header -->
+<head>
+<title>Gnumeric</title>
+<link rel="stylesheet" href="/style/style.css" type="text/css" />
+<link rel="icon" type="image/png" href="/logo.png" />
+</head>
+<body>
+<div id="wrap">
+  <a href="/"><div id="header">
+    <h1 id="logo-text"><span>Gnumeric</span></h1>
+    <p id="slogan">Free, Fast, Accurate &mdash; Pick Any Three!</p>
+    <img id="logo" src="/gnumeric.png" alt="logo" class="float-right"/>
+    </div></a>
+
+  <div id="nav">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/development.html">Development</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <div id="content-wrap">
+    <!-- MARKER: start-main -->
+    <div id="fullmain">
+      <div class="generalitem">
+        <h2><span class="gnumeric-bullet"></span>Gnumeric 1.12.62 aka &quot;TBD&quot; is now available.</h2>
+        <p>The Gnumeric Team is pleased to announce the availability of
+        Gnumeric version 1.12.62.</p>
+        <p>Noteworthy news in this release:</p>
+        <ul>
+          <li>New functions.</li>
+	  <li>Improved xl compatibility.</li>
+	  <li>Fix a few bugs affecting users using Wayland.</li>
+	  <li>Work around some bugs in Wayland.</li>
+        </ul>
+	NOTE: The download link is different this time, see below.
+
+        <p>Details of changes by contributor:</p>
+        <ul>
+        <li>Morten
+          <ul>
+	    <li>
+	      Test improvements.
+	    </li>
+	    <li>
+	      New function PHI.
+	    </li>
+	    <li>
+	      New function GAUSS.
+	    </li>
+	    <li>
+	      New function PERCENTOF.
+	    </li>
+	    <li>
+	      New function REGEXTEST.
+	    </li>
+	    <li>
+	      New function REGEXEXTRACT.
+	    </li>
+	    <li>
+	      New function REGEXREPLACE.
+	    </li>
+	    <li>
+	      New functions NETWORKDAYS.INTL and WORKDAY.INTL.
+	    </li>
+	    <li>
+	      New functions PARTITIONS.
+	    </li>
+	    <li>
+	      Add export option "formulas=true" to txt and csv.
+	    </li>
+	    <li>
+	      Improve xlsx export.
+	    </li>
+	    <li>
+	      Improve xl compatibility for multiple functions.
+	    </li>
+	    <li>
+	      Improve GEOMEAN accuracy.
+	    </li>
+	    <li>
+	      Fix problem with sylk importer.  [<a href="https://gitlab.gnome.org/GNOME/gnumeric/issues/878">Bug 878</a>].
+	    </li>
+	    <li>
+	      Improve xl compatibility for complex functions.
+	    </li>
+	    <li>
+	      Fix problems with blanks for database functions.  [<a href="https://gitlab.gnome.org/GNOME/gnumeric/issues/887">Bug 887</a>].
+	    </li>
+	    <li>
+	      Fix auto-filter problem.  [<a href="https://gitlab.gnome.org/GNOME/gnumeric/issues/891">Bug 891</a>].
+	    </li>
+	    <li>
+	      Avoid Wayland auto-filter warnings.
+	    </li>
+	    <li>
+	      Eliminate reliance on deprecated pango functions.
+	    </li>
+	    <li>
+	      Eliminate reliance on deprecated python functions.
+	    </li>
+	    <li>
+	      Fix R.PST in the log case.
+	    </li>
+          </ul>
+        </li>
+        </ul>
+      </div>
+      <div class="generalitem">
+        <h2><span class="gnumeric-bullet"></span>goffice 0.10.62 aka &quot;TBD&quot; is now available.</h2>
+        <p>The Gnumeric Team is pleased to announce the availability of
+        goffice version 0.10.62.  This is a bugfix release.</p>
+
+        <p>Details of changes by contributor:</p>
+        <ul>
+        <li>Ismael Luceno
+          <ul>
+	    <li>
+	      Use C99 isfinite()/isnan() instead of BSD legacy ones.
+	    </li>
+	    <li>
+	      Reject -ffast-math and -ffinite-math-only.
+	    </li>
+	    <li>
+	      Fix build on musl, which lacks isnanl().
+	    </li>
+	    <li>
+	      Rename finiteD() to isfiniteD().  [--with-decimal64].
+	    </li>
+          </ul>
+        </li>
+        <li>Morten
+          <ul>
+	    <li>
+	      Plug leaks.
+	    </li>
+	    <li>
+	      Fix pango markup issues.
+	    </li>
+	    <li>
+	      Fix pixbuf problem.  [<a href="https://gitlab.gnome.org/GNOME/gnumeric/issues/892">Bug 892</a>] [<a href="https://gitlab.gnome.org/GNOME/gnumeric/issues/886">Bug 886</a>].
+	    </li>
+	    <li>
+	      Tentative fix for [<a href="https://gitlab.gnome.org/GNOME/gnumeric/issues/896">Bug 896</a>] (via claude.ai).
+	    </li>
+          </ul>
+        </li>
+        </ul>
+      </div>
+      <div class="generalitem">
+        <h2><span class="gnumeric-bullet"></span>Availability</h2>
+	NOTE: The Gnumeric link here is unusual.  Due to a
+	gitlab.gnome.org problem, the tarball was not exported to the
+	tarball archive.
+        <blockquote>
+          <p><a href="https://gitlab.gnome.org/GNOME/gnumeric/-/releases">https://gitlab.gnome.org/GNOME/gnumeric/-/releases</a></p>
+        <blockquote>
+          <p><a href="https://ftp.gnome.org/pub/GNOME/sources/goffice/0.10/">https://ftp.gnome.org/pub/GNOME/sources/goffice/0.10/</a></p>
+        </blockquote>
+      </div>
+    </div>
+    <!-- MARKER: end-main -->
+    <!-- MARKER: start-sidebar -->
+    <!-- MARKER: end-sidebar -->
+  </div>
+</div>
+</body>
+</html>
